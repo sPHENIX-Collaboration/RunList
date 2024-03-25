@@ -1,5 +1,5 @@
 # Run List Collections
-Collection of Run list and Descriptions
+Collection of Run list and Descriptions, curated by detector and analysis groups
 
 Guideline: 
 * For each run list (`*.list`), please add a corresponding Read Me file (`*.README`).
