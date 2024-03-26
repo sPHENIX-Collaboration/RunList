@@ -1,0 +1,20 @@
+| Run   | Trigger            | HV Status                | Comments                                                                                                                                |
+|-------|--------------------|--------------------------|-----------------------------------------------------------------------------------------------------------------------------------------|
+| 33298 | 10 Hz Laser Pulses | CM + GEM 100 % operating | NS 12 o’clock R3 (u712) capped at 98% operating, **first event with 10Hz diffuse laser ONLY**, NVPZ 60 %, all others 0 %, labeled CALIB |
+| 33299 | 10 Hz Laser Pulses | CM + GEM 100 % operating | NS 12 o’clock R3 (u712) capped at 98% operating, NVPZ 70 %, all others 0 %, labeled CALIB                                               |
+| 33300 | 10 Hz Laser Pulses | CM + GEM 100 % operating | NS 12 o’clock R3 (u712) capped at 98% operating, EZ 70 %, all others 0 %, labeled CALIB                                                 |
+| 33301 | 10 Hz Laser Pulses | CM + GEM 100 % operating | NS 12 o’clock R3 (u712) capped at 98% operating, EZ 80 %, all others 0 %, labeled CALIB                                                 |
+| 33302 | 10 Hz Laser Pulses | CM + GEM 100 % operating | NS 12 o’clock R3 (u712) capped at 98% operating, MNY 70 %, all others 0 %, labeled CALIB                                                |
+| 33303 | 10 Hz Laser Pulses | CM + GEM 100 % operating | NS 12 o’clock R3 (u712) capped at 98% operating, MNY 50 %, all others 0 %, labeled CALIB                                                |
+| 33304 | 10 Hz Laser Pulses | CM + GEM 100 % operating | NS 12 o’clock R3 (u712) capped at 98% operating, MNY 60, all others 0 %, labeled CALIB                                                  |
+| 33305 | 10 Hz Laser Pulses | CM + GEM 100 % operating | NS 12 o’clock R3 (u712) capped at 98% operating, WC0 80%, all others 0 %, labeled CALIB                                                 |
+| 33306 | 10 Hz Laser Pulses | CM + GEM 100 % operating | NS 12 o’clock R3 (u712) capped at 98% operating, WC0 90%, all others 0 %, labeled CALIB                                                 |
+| 33307 | 10 Hz Laser Pulses | CM + GEM 100 % operating | NS 12 o’clock R3 (u712) capped at 98% operating, ER4L7 70 %, all others 0 %, labeled CALIB                                              |
+| 33308 | 10 Hz Laser Pulses | CM + GEM 100 % operating | NS 12 o’clock R3 (u712) capped at 98% operating, ER4L7 60 %, all others 0 %, labeled CALIB                                              |
+| 33309 | 10 Hz Laser Pulses | CM + GEM 100 % operating | NS 12 o’clock R3 (u712) capped at 98% operating, U2N 60 %, all others 0 %, labeled CALIB                                                |
+| 33310 | 10 Hz Laser Pulses | CM + GEM 100 % operating | NS 12 o’clock R3 (u712) capped at 98% operating, U2N 50 %, all others 0 %, labeled CALIB                                                |
+| 33311 | 10 Hz Laser Pulses | CM + GEM 100 % operating | NS 12 o’clock R3 (u712) capped at 98% operating, ~10K Events, NVPZ 70 %, EZ 80 %, MNY 50 %, WC0 90 %, ER4L7 60 %, U2 50 % labeled CALIB |
+| 33312 | 10 Hz Laser Pulses | CM + GEM 100 % operating | NS 12 o’clock R3 (u712) capped at 98% operating, ~10K Events, NVPZ 70 %, EZ 80 %, MNY 50 %, WC0 90 %, ER4L7 60 %, U2 50 % labeled CALIB |
+| 33313 | 10 Hz Laser Pulses | CM + GEM 100 % operating | NS 12 o’clock R3 (u712) capped at 98% operating, ~10K Events, NVPZ 70 %, EZ 80 %, MNY 50 %, WC0 90 %, ER4L7 60 %, U2 50 % labeled CALIB |
+| 33314 | 10 Hz Laser Pulses | CM + GEM 100 % operating | NS 12 o’clock R3 (u712) capped at 98% operating, ~10K Events, NVPZ 70 %, EZ 80 %, MNY 50 %, WC0 90 %, ER4L7 60 %, U2 50 % labeled CALIB |
+| 33315 | 10 Hz Laser Pulses | CM + GEM 100 % operating | NS 12 o’clock R3 (u712) capped at 98% operating, ~10K Events, NVPZ 70 %, EZ 80 %, MNY 50 %, WC0 90 %, ER4L7 60 %, U2 50 % labeled CALIB |
