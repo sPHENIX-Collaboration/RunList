@@ -15,3 +15,8 @@ Guideline:
 
 * [Run Database](http://www.sphenix-intra.bnl.gov:7815/cgi-bin/run_info.py), which require campus network proxy
 * [Grafana Interface to Run Database and Run Condition History](https://wiki.sphenix.bnl.gov/index.php/Operation_Analytics_Site_(Grafana)), then at [http://info.sphenix.bnl.gov:3000/d/pECQaU4Ik/run-database](http://info.sphenix.bnl.gov:3000/d/pECQaU4Ik/run-database), which require 1008 network proxy
+
+## Other run information
+
+* [Run ELog](https://sphenix-intra.sdcc.bnl.gov/WWW/elog), require campus network
+* [Wiki](https://wiki.sphenix.bnl.gov/index.php/SPHENIX), require SDCC account login
