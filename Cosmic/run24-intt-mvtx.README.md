@@ -4,7 +4,7 @@
 
 Some of these runs include the TPC and were rate limited to 30 Hz with wide, horizontal cosmics. Some runs excluded the TPC and used vertical narrow triggers which increased the rate to ~75 Hz with significantly improved efficiency, at least a 10x improvement. The MVTX was operated with an 89 microsecond strobe length (readout window)
 
-__NOTE:__ I (Cameron Dean) generated TrkrCluster DSTs with this run list using a _new_ build of the sPHENIX software stack on April 25th 2024. [This was to take advantage of this pull request from Yasser](https://github.com/sPHENIX-Collaboration/coresoftware/pull/2654). I also added one line of code to the MVTX unpacker in ```offline/packages/mvtx/MvtxCombinedRawDataDecoder.cc``` to reject any events without a L1 trigger in the MVTX. The MVTX ran streamed at 89us so 1 min of data is ~650k events. The cosmic rate in the MVTX is ~ 30 Hz.
+__NOTE:__ I (Cameron Dean) generated TrkrCluster DSTs with this run list using a _new_ build of the sPHENIX software stack on April 25th 2024. [This was to take advantage of this pull request from Yasser](https://github.com/sPHENIX-Collaboration/coresoftware/pull/2654). I also added two lines of code to the MVTX unpacker in ```offline/packages/mvtx/MvtxCombinedRawDataDecoder.cc``` to reject any events without a L1 trigger in the MVTX. The MVTX ran streamed at 89us so 1 min of data is ~650k events. The cosmic rate in the MVTX is ~ 30 Hz.
 
 The code change is as follows. The bit with ```if (m_writeMvtxEventHeader)``` already exists and is used so people can find where to add the code (line 193).
 
