@@ -1,0 +1,7 @@
+Runs 41967-41975 (TPC+TPOT)
+Runs 41976-41980 (TPC + TPOT, C-AD moving z-vertex)
+Runs 41981-41983 (MVTX, INTT, TPC, TPOT - mvtx issue)
+Runs 41984-41986 (INTT, TPC, TPOT)
+Runs 41987 (MVTX, INTT, TPC, TPOT - mvtx issue )
+Runs 41988 (INTT, TPC, TPOT)
+Runs 41989 - 41992 (MVTX, INTT, TPC, TPOT ) - these are the best runs for all tracking subsystems
