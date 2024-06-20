@@ -34,7 +34,7 @@ Reference: https://chat.sdcc.bnl.gov/sphenix/pl/we8tux6ufjyfm86s9tmwszr91h
 
 ## Jun 19, 2024
 
-### Big partition configuration/ TPC conig.
+### Big partition configuration/ TPC config.
 
 running with nonZS TPC at 30 Hz, with the following gl1 and trigger configurations:
 * Multi event buffering off
