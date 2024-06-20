@@ -51,13 +51,13 @@ running with nonZS TPC at 30 Hz, with the following gl1 and trigger configuratio
 
 ### Runs
 
-* Run 46040 [10 , 29, 30, 31]
-* Run 46041 [10, 29, 30, 31]
-* Run 46043 [10]
-* Run 46044 [29, 30, 31]
-* Run 46045 [25, 26, 27]
-* Run 46046 [10, 25, 26, 27]
-* Run 46048 [10, 25, 26, 27]
-* Run 46050 [10, 25, 26, 27]
-* Run 46051 [10, 25, 26, 27]
-* Run 46052 [10, 25, 26, 27]
+* Run 46040 [10 , 29, 30, 31] (watch out for transient noise) mattermost reference thread: https://chat.sdcc.bnl.gov/sphenix/pl/57hmhkownjy8ufks7i4gwkhrme
+* Run 46041 [10, 29, 30, 31] (watch out for transient noise) mattermost reference thread: https://chat.sdcc.bnl.gov/sphenix/pl/7ph4gfewujrw7y7o9q7wbb9jee
+* Run 46043 [10] mattermost refernce thread: https://chat.sdcc.bnl.gov/sphenix/pl/xty8dftq6bb43yhz6scd63fdyo
+* Run 46044 [29, 30, 31] (watch out for transient noise) mattermost reference thread: https://chat.sdcc.bnl.gov/sphenix/pl/9os31qzxkirhpy6m1zaohizbgh
+* Run 46045 [25, 26, 27] mattermost reference thread: https://chat.sdcc.bnl.gov/sphenix/pl/bhnsr7oxepb6fdtzmnfq7jzjie
+* Run 46046 [10, 25, 26, 27] mattermost reference thread: https://chat.sdcc.bnl.gov/sphenix/pl/mexspb5ef3yadj3gbd6kgsm5da
+* Run 46048 [10, 25, 26, 27] mattermost reference thread: https://chat.sdcc.bnl.gov/sphenix/pl/xxyc9fc1epgu5jxn1ffouaje9y
+* Run 46050 [10, 25, 26, 27] mattermost reference thread: https://chat.sdcc.bnl.gov/sphenix/pl/1pouz5iso7g97cp7xznuzzx3be
+* Run 46051 [10, 25, 26, 27] mattermost reference thread: https://chat.sdcc.bnl.gov/sphenix/pl/7fmezy7h7jdtjria4uhhccjnfe
+* Run 46052 [10, 25, 26, 27] mattermost reference thread: https://chat.sdcc.bnl.gov/sphenix/pl/j946ezi6spyf3dymrc3yf13zro
