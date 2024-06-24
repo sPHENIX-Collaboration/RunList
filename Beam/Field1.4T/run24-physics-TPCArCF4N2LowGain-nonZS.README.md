@@ -8,7 +8,8 @@ Goal:
 - HV stability at the edge of physics capability + get more data for offline to tune to simulation
 - Larger TPC performance and joint silicon + tracking + calo study
 - High cross section analysis like K0s and photon conversion analysis
-- Baseline non ZS data for zero suppression development (noise control, readout stability, threshold scan, and offline reco)
+- Baseline non ZS data for zero suppression development (noise control, readout stability, threshold scan, and offline reco). 
+  - SAMPA baseline correction 3 (BC3) is enabled: https://chat.sdcc.bnl.gov/sphenix/pl/ih7zgjce3fbyjnrgka8i4iggpe 
 
 # Run log
 
