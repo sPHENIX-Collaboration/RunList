@@ -41,9 +41,9 @@ running with nonZS TPC at 30 Hz, with the following gl1 and trigger configuratio
 * Multi event buffering off
 * tpc ENDAT = 360
 * Trigger 10 (MBD >= 1)
-* Trigger 25 (Photon 2 GeV + MBD coin.) 
-* Trigger 36 (Photon 3 GeV + MBD coin.)  
-* Trigger 27 (Photon 4 Gev + MBD coin.) 
+* Trigger 25 (Photon 3 GeV + MBD coin.) 
+* Trigger 26 (Photon 4 GeV + MBD coin.)  
+* Trigger 27 (Photon 5 Gev + MBD coin.) 
 * Trigger 29 (Photon 2 GeV) 
 * Trigger 30 (Photon 3 GeV) 
 * Trigger 31 (Photon 4 Gev)
