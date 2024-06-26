@@ -26,6 +26,8 @@ running with nonZS TPC at 30 Hz, with the following gl1 and trigger configuratio
 * Trigger 31 (Photon 4 Gev) = 100
 Reference: https://chat.sdcc.bnl.gov/sphenix/pl/we8tux6ufjyfm86s9tmwszr91h
 
+* TPC gas: Ar:CF4: (60:40)
+
 ### Runs
 
 * 45888: TPC: GEMs: 4.1 kV, CM: 44.3 kV (all trackers in MVTX, INTT, TPC, TPOT, and all calo). **Trigger prescale and MEB tuning during the run**. Reference: https://chat.sdcc.bnl.gov/sphenix/pl/tfdprph5fiyjzc4x79rc5cz1wo
@@ -33,7 +35,7 @@ Reference: https://chat.sdcc.bnl.gov/sphenix/pl/we8tux6ufjyfm86s9tmwszr91h
 * 45892: TPC: GEMs: 4.1 kV, CM: 44.3 kV (all trackers in MVTX, INTT, TPC, TPOT, and all calo). Good run. Reference: https://chat.sdcc.bnl.gov/sphenix/pl/c7cxz6q9nj8juyoc37ro3bxxta
 
 
-## Jun 19, 2024
+## Jun 19, 2024 
 
 ### Big partition configuration/ TPC config.
 
@@ -48,7 +50,9 @@ running with nonZS TPC at 30 Hz, with the following gl1 and trigger configuratio
 * Trigger 30 (Photon 3 GeV) 
 * Trigger 31 (Photon 4 Gev)
 
-* TPC HV: 4.1 kV, CM: 44.3 kV, 400 samples, 120 pre-samples
+* TPC gas: Ar:CF4:N2 (65:25:10)
+* TPC HV: 4.1 kV, CM: 44.3 kV,
+* TPC FEE: 400 samples, 120 pre-samples
 
 ### Runs
 
@@ -62,3 +66,30 @@ running with nonZS TPC at 30 Hz, with the following gl1 and trigger configuratio
 * Run 46050 [10, 25, 26, 27] mattermost reference thread: https://chat.sdcc.bnl.gov/sphenix/pl/1pouz5iso7g97cp7xznuzzx3be
 * Run 46051 [10, 25, 26, 27] mattermost reference thread: https://chat.sdcc.bnl.gov/sphenix/pl/7fmezy7h7jdtjria4uhhccjnfe
 * Run 46052 [10, 25, 26, 27] mattermost reference thread: https://chat.sdcc.bnl.gov/sphenix/pl/j946ezi6spyf3dymrc3yf13zro
+
+## Jun 25, 2024
+
+### Big partition configuration/ TPC config.
+
+running with nonZS TPC at 30 Hz, with the following gl1 and trigger configurations:
+* Multi event buffering off
+* tpc ENDAT = 235000
+* Trigger 10 (MBD >= 1)
+* Trigger 25 (Photon 3 GeV + MBD coin.) 
+* Trigger 26 (Photon 4 GeV + MBD coin.)  
+* Trigger 27 (Photon 5 Gev + MBD coin.) 
+
+* TPC gas: Ar:CF4:N2 (65:25:10)
+* TPC FEE: 400 samples, 120 pre-samples
+* Note: This data is mostly rare triggers, MBD coin. only is ~ 4 %
+
+### Runs
+
+* Run 46723 [10 , 25, 26, 27], (all trackers in MVTX, INTT, TPC, TPOT, and all calo), TPC: GEMs 4.1 kV, CM: 44.3 kV https://chat.sdcc.bnl.gov/sphenix/pl/cu5x617ee7gijnzzdtktxfexwc
+* Run 46725 [10 , 25, 26, 27], (INTT, TPC, TPOT, and all calo), TPC: GEMs 4.1 kV, CM: 44.3 kV https://chat.sdcc.bnl.gov/sphenix/pl/fjsk8w7h3tby3fm6x93zc3r56o
+* Run 46726 [10 , 25, 26, 27], (INTT, TPC, TPOT, and all calo), TPC: GEMs 4.1 kV, CM: 44.3 kV https://chat.sdcc.bnl.gov/sphenix/pl/h5neseckaf8b5rtstcyjpbxouy
+* Run 46727 [10 , 25, 26, 27], (INTT, TPC, TPOT, and all calo), TPC: GEMs 4.1 kV, CM: 44.3 kV https://chat.sdcc.bnl.gov/sphenix/pl/wq8cntqdttd858y5ja4eom7pwh
+* Run 46728 [10 , 25, 26, 27], (NTT, TPC, TPOT, and all calo), TPC: GEMs 4.1 kV, CM: 44.3 kV https://chat.sdcc.bnl.gov/sphenix/pl/91pdmmk4wt898phxmco7xnmi7c
+* Run 46729 [10 , 25, 26, 27], (all trackers in MVTX, INTT, TPC, TPOT, and all calo), TPC: GEMs 4.15 kV, CM: 44.3 kV https://chat.sdcc.bnl.gov/sphenix/pl/9d993e7j7trzur5p7age81kbdh
+* Run 46730 [10 , 25, 26, 27], (INTT, TPC, TPOT, and all calo), TPC: GEMs 4.2 kV, CM: 44.3 kV https://chat.sdcc.bnl.gov/sphenix/pl/xjokfs9si3dw3jg967u9eyzj9r
+
