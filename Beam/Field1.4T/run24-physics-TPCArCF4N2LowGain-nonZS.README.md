@@ -106,10 +106,10 @@ TPC running with mixture of ZS and nonZS TPC w/ and w/o diffuse lasers at 40 Hz,
 
 ### Runs
 
-* Run 46776 (calib), (all trackers except MVTX and all calo), TPC: GEMs 4.1 kV, CM: 44.3 kV https://chat.sdcc.bnl.gov/sphenix/pl/5c6yssiqbjgz5mbr36gthsrd3h
-* Run 46777 (calib), (all trackers except MVTX and all calo), TPC: GEMs 4.1 kV, CM: 44.3 kV https://chat.sdcc.bnl.gov/sphenix/pl/mruipt5shbfgtkxafk4tbr6sar
-* Run 46778, (all trackers except MVTX and all calo), TPC: GEMs 4.1 kV, CM: 44.3 kV https://chat.sdcc.bnl.gov/sphenix/pl/jii5hdxu47nk9jt73e5hhx3taa
-* Run 46781, (all trackers except MVTX and all calo), TPC: GEMs 4.1 kV, CM: 44.3 kV https://chat.sdcc.bnl.gov/sphenix/pl/s5jhipzt4ibq7ygryrot8pfbfe
-* Run 46782, (all trackers except MVTX and all calo), TPC: GEMs 4.1 kV, CM: 44.3 kV https://chat.sdcc.bnl.gov/sphenix/pl/dnz98fnbmigotpydwrmnim3mwh
-* Run 46784 (calib) BEAM OFF, TPC: GEMs 4.1 kV, CM: 44.3 kV https://chat.sdcc.bnl.gov/sphenix/pl/zwwszpzhsiry8yqh1k3sco4tae
+* Run 46776 (calib, no laser, nonZS), (all trackers except MVTX and all calo), TPC: GEMs 4.1 kV, CM: 44.3 kV https://chat.sdcc.bnl.gov/sphenix/pl/5c6yssiqbjgz5mbr36gthsrd3h
+* Run 46777 (calib, 7.6 kHz laser, nonZS), (all trackers except MVTX and all calo), TPC: GEMs 4.1 kV, CM: 44.3 kV https://chat.sdcc.bnl.gov/sphenix/pl/mruipt5shbfgtkxafk4tbr6sar
+* Run 46778 (physics, no laser, nonZS), (all trackers except MVTX and all calo), TPC: GEMs 4.1 kV, CM: 44.3 kV https://chat.sdcc.bnl.gov/sphenix/pl/jii5hdxu47nk9jt73e5hhx3taa
+* Run 46781 (physics GL1 sync laser, nonZS), (all trackers except MVTX and all calo), TPC: GEMs 4.1 kV, CM: 44.3 kV https://chat.sdcc.bnl.gov/sphenix/pl/s5jhipzt4ibq7ygryrot8pfbfe
+* Run 46782 (ZS + GL1 sync laser, **ZS**), (all trackers except MVTX and all calo), TPC: GEMs 4.1 kV, CM: 44.3 kV https://chat.sdcc.bnl.gov/sphenix/pl/dnz98fnbmigotpydwrmnim3mwh
+* Run 46784 (calib + 45 Hz laser, nonzS) BEAM OFF, TPC: GEMs 4.1 kV, CM: 44.3 kV https://chat.sdcc.bnl.gov/sphenix/pl/zwwszpzhsiry8yqh1k3sco4tae
 
