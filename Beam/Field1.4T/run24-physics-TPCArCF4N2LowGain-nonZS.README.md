@@ -93,3 +93,23 @@ running with nonZS TPC at 30 Hz, with the following gl1 and trigger configuratio
 * Run 46729 [10 , 25, 26, 27], (all trackers in MVTX, INTT, TPC, TPOT, and all calo), TPC: GEMs 4.15 kV, CM: 44.3 kV https://chat.sdcc.bnl.gov/sphenix/pl/9d993e7j7trzur5p7age81kbdh
 * Run 46730 [10 , 25, 26, 27], (INTT, TPC, TPOT, and all calo), TPC: GEMs 4.2 kV, CM: 44.3 kV https://chat.sdcc.bnl.gov/sphenix/pl/xjokfs9si3dw3jg967u9eyzj9r
 
+* ## Jun 26, 2024
+
+### Big partition configuration/ TPC config.
+
+TPC running with mixture of ZS and nonZS TPC w/ and w/o diffuse lasers at 40 Hz, with the following gl1 and trigger configurations:
+
+* TPC gas: Ar:CF4:N2 (65:25:10)
+* TPC FEE: 400 or 425 samples, 120 pre-samples
+* Diffuse Lasers - 4 MIP intensity https://chat.sdcc.bnl.gov/sphenix/pl/ouq5twcm7pg88p6wb1oghok5nw
+* Note all voltages are "weather equivalent"
+
+### Runs
+
+* Run 46776 (calib), (all trackers except MVTX and all calo), TPC: GEMs 4.1 kV, CM: 44.3 kV https://chat.sdcc.bnl.gov/sphenix/pl/5c6yssiqbjgz5mbr36gthsrd3h
+* Run 46777 (calib), (all trackers except MVTX and all calo), TPC: GEMs 4.1 kV, CM: 44.3 kV https://chat.sdcc.bnl.gov/sphenix/pl/mruipt5shbfgtkxafk4tbr6sar
+* Run 46778, (all trackers except MVTX and all calo), TPC: GEMs 4.1 kV, CM: 44.3 kV https://chat.sdcc.bnl.gov/sphenix/pl/jii5hdxu47nk9jt73e5hhx3taa
+* Run 46781, (all trackers except MVTX and all calo), TPC: GEMs 4.1 kV, CM: 44.3 kV https://chat.sdcc.bnl.gov/sphenix/pl/s5jhipzt4ibq7ygryrot8pfbfe
+* Run 46782, (all trackers except MVTX and all calo), TPC: GEMs 4.1 kV, CM: 44.3 kV https://chat.sdcc.bnl.gov/sphenix/pl/dnz98fnbmigotpydwrmnim3mwh
+* Run 46784 (calib) BEAM OFF, TPC: GEMs 4.1 kV, CM: 44.3 kV https://chat.sdcc.bnl.gov/sphenix/pl/zwwszpzhsiry8yqh1k3sco4tae
+
