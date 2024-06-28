@@ -93,11 +93,11 @@ running with nonZS TPC at 30 Hz, with the following gl1 and trigger configuratio
 * Run 46729 [10 , 25, 26, 27], (all trackers in MVTX, INTT, TPC, TPOT, and all calo), TPC: GEMs 4.15 kV, CM: 44.3 kV https://chat.sdcc.bnl.gov/sphenix/pl/9d993e7j7trzur5p7age81kbdh
 * Run 46730 [10 , 25, 26, 27], (INTT, TPC, TPOT, and all calo), TPC: GEMs 4.2 kV, CM: 44.3 kV https://chat.sdcc.bnl.gov/sphenix/pl/xjokfs9si3dw3jg967u9eyzj9r
 
-* ## Jun 26, 2024
+## Jun 26, 2024
 
 ### Big partition configuration/ TPC config.
 
-TPC running with mixture of ZS and nonZS TPC w/ and w/o diffuse lasers at 40 Hz, with the following gl1 and trigger configurations:
+TPC running with mixture of ZS and nonZS TPC w/ and w/o diffuse lasers at 40 Hz, with the following detector, gl1 and trigger configurations:
 
 * TPC gas: Ar:CF4:N2 (65:25:10)
 * TPC FEE: 400 or 425 samples, 120 pre-samples
@@ -110,6 +110,34 @@ TPC running with mixture of ZS and nonZS TPC w/ and w/o diffuse lasers at 40 Hz,
 * Run 46777 (calib, 7.6 kHz laser, nonZS), (all trackers except MVTX and all calo), TPC: GEMs 4.1 kV, CM: 44.3 kV https://chat.sdcc.bnl.gov/sphenix/pl/mruipt5shbfgtkxafk4tbr6sar
 * Run 46778 (physics, no laser, nonZS), (all trackers except MVTX and all calo), TPC: GEMs 4.1 kV, CM: 44.3 kV https://chat.sdcc.bnl.gov/sphenix/pl/jii5hdxu47nk9jt73e5hhx3taa
 * Run 46781 (physics GL1 sync laser, nonZS), (all trackers except MVTX and all calo), TPC: GEMs 4.1 kV, CM: 44.3 kV https://chat.sdcc.bnl.gov/sphenix/pl/s5jhipzt4ibq7ygryrot8pfbfe
-* Run 46782 (ZS + GL1 sync laser, **ZS**), (all trackers except MVTX and all calo), TPC: GEMs 4.1 kV, CM: 44.3 kV https://chat.sdcc.bnl.gov/sphenix/pl/dnz98fnbmigotpydwrmnim3mwh
+* Run 46782 (ZS + 40Hz GL1 sync 20Hz laser, **ZS, 10 ADU thresh**), (all trackers except MVTX and all calo), TPC: GEMs 4.1 kV, CM: 44.3 kV https://chat.sdcc.bnl.gov/sphenix/pl/dnz98fnbmigotpydwrmnim3mwh
 * Run 46784 (calib + 45 Hz laser, nonzS) BEAM OFF, TPC: GEMs 4.1 kV, CM: 44.3 kV https://chat.sdcc.bnl.gov/sphenix/pl/zwwszpzhsiry8yqh1k3sco4tae
 
+
+## Jun 28, 2024
+
+### Big partition configuration/ TPC config.
+
+TPC running with mixture of ZS and nonZS TPC w/ and w/o diffuse lasers at 40 Hz, with the following detector, gl1 and trigger configurations:
+
+* TPC gas: Ar:CF4:N2 (65:25:10)
+* TPC FEE: 400 or 425 samples, 120 pre-samples
+* Diffuse Lasers - 4 MIP intensity https://chat.sdcc.bnl.gov/sphenix/pl/ouq5twcm7pg88p6wb1oghok5nw
+* MBD narrow vertex trigger (approx |z| < 10 cm)
+* Note all voltages are "weather equivalent"
+
+### Runs
+
+* Run 46975 (nonZS, laser),(all trackers and all calo, stopped early due to INTT issue) TPC: GEMs 4.1 kV, CM: 44.3 kV https://chat.sdcc.bnl.gov/sphenix/pl/tregxbeupfnstm61xw6y6z487y 
+* Run 46976 (nonZS, laser),(all trackers and all calo) TPC: GEMs 4.1 kV, CM: 44.3 kV https://chat.sdcc.bnl.gov/sphenix/pl/sdeksbbk9jf13m5eqhws46urew
+* Run 46977 (nonZS, no laser),(all trackers and all calo, GL1 mismatch in EMCAL) TPC: GEMs 4.1 kV, CM: 44.3 kV https://chat.sdcc.bnl.gov/sphenix/pl/jewxfmsg77gszk89k5a9jrincr
+* Run 46978 (ZS 15 ADU thresh, no laser),(all trackers and all calo) TPC: GEMs 4.1 kV, CM: 44.3 kV https://chat.sdcc.bnl.gov/sphenix/pl/1ni3moyqa7nhuxiak634y353eh
+* Run 46979 (ZS 15 ADU thresh, laser),(all trackers and all calo, GL1 mismatch in all ADcs except MBD and ZDC) TPC: GEMs 4.1 kV, CM: 44.3 kV https://chat.sdcc.bnl.gov/sphenix/pl/gzxj5rkks3n18yrwtuzwd99dqw
+* Run 46980 (ZS 5 ADU thresh, laser),(all trackers and all calo) TPC: GEMs 4.1 kV, CM: 44.3 kV https://chat.sdcc.bnl.gov/sphenix/pl/3rqegitomi84mn1ms7c777d1se
+* Run 46981 (ZS 5 ADU thresh, no laser), (all trackers and all calo) TPC: GEMs 4.1 kV, CM: 44.3 kV https://chat.sdcc.bnl.gov/sphenix/pl/kcm5x81n6pruje44sg9tfbw5wo
+* Run 46982 (ZS 25 ADU thresh, no laser), (all trackers and all calo) TPC: GEMs 4.1 kV, CM: 44.3 kV https://chat.sdcc.bnl.gov/sphenix/pl/igm16kft4jgnpb88j9je1g9m6r
+* Run 46983 (ZS 25 ADU thresh, laser), (all trackers and all calo, e-link reset isse in TPC), TPC: GEMs 4.1 kV, CM: 44.3 kV https://chat.sdcc.bnl.gov/sphenix/pl/o3pe5mo3fjntfetageg1c6x8hy
+* Run 46984 (ZS 20 ADU thresh, laser), (all trackers and all calo), TPC: GEMs 4.1 kV, CM: 44.3 kV, https://chat.sdcc.bnl.gov/sphenix/pl/dm41qi8yridwdqc7aj6a68ddha
+* Run 46985 (ZS 20 ADU thresh, no laser), (all trackers and all calo), TPC: GEMs 4.1 kV, CM: 44.3 kV, https://chat.sdcc.bnl.gov/sphenix/pl/b9qmdg817t88jx1ttfkcbb1gmc
+* Run 46986 (ZS 10 ADU thresh, no laser), (all trackers and all calo), TPC: GEMs 4.1 kV, CM: 44.3 kV, https://chat.sdcc.bnl.gov/sphenix/pl/fkcnfcwuxpn5ip6qwtr3nphzfw
+* Run 46987 (ZS 10 ADU thresh, laser), (all trackers and all calo), TPC: GEMs 4.1 kV, CM: 44.3 kV, https://chat.sdcc.bnl.gov/sphenix/pl/gonzwruhbirojf64i367uq7kyy
