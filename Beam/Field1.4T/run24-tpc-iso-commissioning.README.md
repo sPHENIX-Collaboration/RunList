@@ -238,6 +238,126 @@ Notes:
 - Additionally, the high rate resulted in some errors that caused many of these runs to end early (seb busy, bbox issues)
 
 
+## Step 4.2: GEM stability test after gas system maintenance 
+
+### TPC commissioning runs 08/13/24  PART 1 (111X111 runs w/ MBD or MBD + 8 GeV jet trig. only)
+
+Run condition  
+
+* Run Types: Physics (111x111) 
+* B Field: 1.4 T 
+* TPC Num Samples 380 or 425
+* TPC Pre-Sample 120 
+* **Triggers: MBD narrow only/MBD narrow + (MBD narrow. + 8 GeV trig) {8, 33}
+* TPC Gas Ar:cf4:Iso (75:20:5)  
+* Other detectors included: ALL unless otherwise specified
+
+Run list
+
+TPC HV: (GEMs – 3.25 kV, CM – 43.3 kV), 0 mrad crossing angle, **nonZS, 380 samples**. Runs {**[51240](https://chat.sdcc.bnl.gov/sphenix/pl/jrgg4nbnyfbiipu65jegm3o1ze)**}. Trigger: MBD narrow only
+
+TPC HV: (GEMs – 3.3 kV, CM – 43.3 kV), 0 mrad crossing angle, **nonZS, 380 samples**. Runs {**[51241](https://chat.sdcc.bnl.gov/sphenix/pl/xb6cgpbzh7yeiespt431m53dye)**}. Trigger: MBD narrow only
+
+TPC HV: (GEMs – 3.3 kV, CM – 43.3 kV), +1.5 mrad crossing angle, **nonZS, 380 samples**. Runs {**[51242](https://chat.sdcc.bnl.gov/sphenix/pl/jqcbdawi638cfcxj7kngn4jgdy)**}. Trigger: MBD narrow only
+
+TPC HV: (GEMs – 3.35 kV, CM – 43.3 kV), +1.5 mrad crossing angle, **nonZS, 380 samples**. Runs {**[51243](https://chat.sdcc.bnl.gov/sphenix/pl/ewf57be1gjru5c48upjbrrjoyo)**}. Trigger: MBD narrow only
+
+TPC HV: (GEMs – 3.35 kV, CM – 43.3 kV), +1.5 mrad crossing angle, **nonZS, 425 samples**. Runs {**[51244](https://chat.sdcc.bnl.gov/sphenix/pl/sxy6qyesjpr3fn43shgfqedq3e)**, **[51245](https://chat.sdcc.bnl.gov/sphenix/pl/5sqypbjwipnsfka4ahqokuq7de)**}. Trigger: MBD narrow only, **Diffuse laser IN at 3 MIP intensity**
+
+TPC HV: (GEMs – 3.35 kV, CM – 43.3 kV), +1.5 mrad crossing angle, **nonZS, 425 samples**. Runs {**[51246](https://chat.sdcc.bnl.gov/sphenix/pl/s3h4pibsmirxzmmh7hpnsaye3o)**}. Trigger: MBD narrow + 8 GeV Jet (12 + 33), **Diffuse laser IN at 4 MIP intensity**
+
+TPC HV: (GEMs – 3.35 kV, CM – 43.3 kV), +1.5 mrad crossing angle, **nonZS, 425 samples**. Runs {**[51247](https://chat.sdcc.bnl.gov/sphenix/pl/8wai9ih9k3gkjy8c4arqtyycaa)**}. Trigger: MBD narrow + 8 GeV Jet (12 + 33), **Diffuse laser IN at 2 MIP intensity**
+
+TPC HV: (GEMs – 3.35 kV, CM – 43.3 kV), +1.5 mrad crossing angle, **nonZS, 425 samples**. Runs {**[51248](https://chat.sdcc.bnl.gov/sphenix/pl/xosdsrxo4inidn5hhmskhmgd1y)**}. Trigger: MBD narrow + 8 GeV Jet (12 + 33), **Diffuse laser IN at 1 MIP intensity**
+
+TPC HV: (GEMs – 3.35 kV, CM – 43.3 kV), +1.5 mrad crossing angle, **nonZS, 425 samples**. Runs {**[51249](https://chat.sdcc.bnl.gov/sphenix/pl/opxcq3xfhtf38duxziczc9n93o)**}. Trigger: MBD narrow + 8 GeV Jet (12 + 33)
+
+TPC HV: (GEMs – 3.30 kV, CM – 43.3 kV), +1.5 mrad crossing angle, **nonZS 425 samples**. Runs {**[51250](https://chat.sdcc.bnl.gov/sphenix/pl/w9py6wheefdomdbm7xs8nsccnwy)**}. Trigger: MBD narrow + 8 GeV Jet (12 + 33)
+
+TPC HV: (GEMs – 3.30 kV, CM – 43.3 kV), +1.5 mrad crossing angle, **ZS - 20 ADU thresh, 425 samples**. Runs {**[51252](https://chat.sdcc.bnl.gov/sphenix/pl/3fbgy19udpdbueine9an7ebo3y)**}. Trigger: MBD narrow + 8 GeV Jet (12 + 33)
+
+TPC HV: (GEMs – 3.35 kV, CM – 43.3 kV), +1.5 mrad crossing angle, **ZS - 20 ADU thresh, 425 samples**. Runs {**[51253](https://chat.sdcc.bnl.gov/sphenix/pl/1m9gz193j3nypc5zcma11qhhec)**}. Trigger: MBD narrow + 8 GeV Jet (12 + 33)
+
+TPC HV: (GEMs – 3.35 kV, CM – 43.3 kV), +1.5 mrad crossing angle, **ZS - 20 ADU thresh, 425 samples**. Runs {**[51254](https://chat.sdcc.bnl.gov/sphenix/pl/c5yhao7qiigc5qcm9wdtk17aoe)**}. Trigger: MBD narrow + 8 GeV Jet (12 + 33), **Diffuse laser IN at 3 MIP intensity**
+
+TPC HV: (GEMs – 3.35 kV, CM – 43.3 kV), +1.5 mrad crossing angle, **ZS - 20 ADU thresh, 425 samples**. Runs {**[51255](https://chat.sdcc.bnl.gov/sphenix/pl/maam9f6jz7drzkg39dr1fn49ea)**}. Trigger: MBD narrow + 8 GeV Jet (12 + 33), **Diffuse laser IN at 1 MIP intensity**
+
+
+_________________________
+Notes 
+
+- Run 51243 had bbox3 issues that caused it to end early - [see here](https://chat.sdcc.bnl.gov/sphenix/pl/onz6qmk35pgffbfy6iyn165jww)
+
+- When the diffuse laser was in the present in the run, it will not result in a laser flash every event (maybe 1:2 or 1:3). **THE DIFFUSE LASER FLASH IS ON THE NS ONLY**
+
+- Run 51244 was taken during polarization measurement as well as noisy FEE masking out - not recommended for analysis
+
+- List of caps: {u305, u208, u608, u307, u302, u311,}
+
+- **Drift Velocity in these runs has changed again - now closer to 70-75 um/ns**
+
+### TPC commissioning runs 08/13/24  PART 2 (NO BEAM runs w/ clock triggers)
+
+Run condition  
+
+* Run Types: CALIB (NO BEAM) 
+* B Field: 1.4 T 
+* TPC Num Samples 425
+* TPC Pre-Sample 120 
+* Triggers: Clock triggers
+* TPC Gas Ar:cf4:Iso (75:20:5)  
+* Other detectors included: ALL unless otherwise specified
+
+Run list
+
+TPC HV: (GEMs – 3.30 kV, CM – 43.3 kV), **nonZS, 425 samples**. Runs {**[51256](https://chat.sdcc.bnl.gov/sphenix/pl/37yb99nyjtrduywrrbdnisbbmw)**, **[51257](https://chat.sdcc.bnl.gov/sphenix/pl/k97t1pcdji8kjri4cggnxhpctr)**}. **Diffuse laser IN at 3 MIP Intensity**
+
+TPC HV: (GEMs – 3.30 kV, CM – 43.3 kV), **ZS - 20 ADU thresh, 425 samples**. Runs {**[51259](https://chat.sdcc.bnl.gov/sphenix/pl/zhs5q6ibw7gm5jr3u4j5ge5r1e)**}. **Diffuse laser IN at 3 MIP Intensity**
+
+_________________________
+Notes 
+
+- Run 51256 is mostly a junk run (noisy FEEs were maksing out) - not recommended for analysis
+
+- Run 51257 - MVTX is OUT
+
+- Run 51258 - MVTX, EMCAL, HCAL OUT
+
+- When the diffuse laser was in the present in the run, it will not result in a laser flash every event (maybe 1:2 or 1:3). THE DIFFUSE LASER FLASH IS ON THE NS ONLY
+
+- **Drift Velocity in these runs has changed again - now closer to 70-75 um/ns**
+
+- List of caps: {u305, u208, u608, u302, u307}
+
+### TPC commissioning runs 08/13/24  PART 3 (111x111 + physics triggers)
+
+Run condition  
+
+* Run Types: Physics (111x111) 
+* B Field: 1.4 T 
+* TPC Num Samples 425
+* TPC Pre-Sample 120 
+* Triggers: Physics triggers ([similar to this](https://chat.sdcc.bnl.gov/sphenix/pl/adhu5unhbfddunm6pnfieor3oh))
+* TPC Gas Ar:cf4:Iso (75:20:5)  
+* Other detectors included: ALL unless otherwise specified
+
+Run list
+
+TPC HV: (GEMs – 3.30 kV, CM – 43.3 kV), **ZS - 20 ADU thresh., 425 samples**. Runs {**[51276](https://chat.sdcc.bnl.gov/sphenix/pl/f9yk3odwbjfp5k3bzzzx3yewro)**, **[51277](https://chat.sdcc.bnl.gov/sphenix/pl/mnyhu9xzc7fr5f9mtn7jsu9j5w)**, **[51279](https://chat.sdcc.bnl.gov/sphenix/pl/oksjfqzh37f3zxzqscw4zyqjyc)**, **[51281](https://chat.sdcc.bnl.gov/sphenix/pl/99jrjn75opfp9qytwad3ssho3r)**, **[51282](https://chat.sdcc.bnl.gov/sphenix/pl/rgx5ws3nu381pdtezy8cks6w9c)**}. **Diffuse laser IN at 3 MIP Intensity**
+
+_________________________
+Notes 
+
+- We do not recommend analyzing Run 51276, the laser was not in at the beginning of this run, but inserted during the run
+
+- Run 51282 was during polarization measurement
+
+- When the diffuse laser was in the present in the run, it will not result in a laser flash every event (maybe 1:2 or 1:3). **THE DIFFUSE LASER FLASH IS ON THE NS ONLY**
+
+- **Drift Velocity in these runs has changed again - now closer to 70-75 um/ns**
+ 
+- List of caps: {u305, u208, u608, u307, u302, u311, u704 }
+
 
 
 
