@@ -371,6 +371,72 @@ Notes
 * Other detectors included: ALL unless otherwise specified
 
 
+# Step 5: performance tuning and validation
+
+## Step 5.0 Zero suppression tuning with TPC commissioning runs 08/15/24  (low rate 111x111 BEAM runs for ZS thresh and pre/post sample tuning)  
+
+### Run condition  
+
+* Run Types: PHYSICS (111x111) 
+* B Field: 1.4 T 
+* x-ing angle = +1.5 mrad
+* TPC run types (all runs): **360 samples (unless otherwise specified)** nonZS and ZS mixture 
+* TPC Pre-Sample 120 
+* Triggers: MBD narrow only (unless otherwise specified)
+* TPC Gas Ar:cf4:Iso (75:20:5)  
+
+### Run list
+
+TPC HV: (**GEMs – 3.35 kV**, CM – 43.3 kV), **nonZS**, **ZDC = 619 Hz**, Runs {**[51380](https://chat.sdcc.bnl.gov/sphenix/pl/9f4ids98itndjgubrr8gptgcph)**}.  u703 capped
+
+TPC HV: (**GEMs – 3.3 kV**, CM – 43.3 kV), **nonZS**, **ZDC = 609 Hz**, Runs {**[51381](https://chat.sdcc.bnl.gov/sphenix/pl/zds1e9nibjncbrjs7sgm353rbc)**}.  u703 capped
+
+TPC HV: (**GEMs – 3.3 kV**, CM – 43.3 kV), **ZS - 20 ADU thresh, pre/post trig.=3/5**, **ZDC = 596 Hz**, Runs {**[51382](https://chat.sdcc.bnl.gov/sphenix/pl/eruskohjatbsz8n9e7iwawbarc)**}.  u703 capped
+
+TPC HV: (**GEMs – 3.35 kV**, CM – 43.3 kV), **ZS - 20 ADU thresh, pre/post trig.=3/5**, **ZDC = 592 Hz**, Runs {**[51383](https://chat.sdcc.bnl.gov/sphenix/pl/ff5cng8tfjdudm1g8be1dgnosy)**}.  u703 capped
+
+TPC HV: (**GEMs – 3.35 kV**, CM – 43.3 kV), **ZS - 15 ADU thresh, pre/post trig.=3/5**, **ZDC = 587 Hz**, Runs {**[51384](https://chat.sdcc.bnl.gov/sphenix/pl/dxrihiskijnztdiaym8xg8onwy)**}.  u703 capped, u307 capped mid-run
+
+TPC HV: (**GEMs – 3.3 kV**, CM – 43.3 kV), **ZS - 15 ADU thresh, pre/post trig.=3/5**, **ZDC = 576 Hz**, Runs {**[51385](https://chat.sdcc.bnl.gov/sphenix/pl/j97198jz8irwurimz19kbbxyrr)**}.  u703, u307 capped
+
+TPC HV: (**GEMs – 3.3 kV**, CM – 43.3 kV), **ZS - 30 ADU thresh, pre/post trig.=3/5**, **ZDC = 583 Hz**, Runs {**[51386](https://chat.sdcc.bnl.gov/sphenix/pl/q497wm7er7rbmjxsfymai1jqah)**}.  u703, u307 capped
+
+TPC HV: (**GEMs – 3.35 kV**, CM – 43.3 kV), **ZS - 30 ADU thresh, pre/post trig.=3/5**, **ZDC = 628 Hz**, Runs {**[51387](https://chat.sdcc.bnl.gov/sphenix/pl/wxns8kxrojyyixyt4gcxgzxxrr)**}.  u703, u307 capped
+
+TPC HV: (**GEMs – 3.35 kV**, CM – 43.3 kV), **ZS - 20 ADU thresh, pre/post trig.=2/2**, **ZDC = 663 Hz**, Runs {**[51388](https://chat.sdcc.bnl.gov/sphenix/pl/zw6ogdph6jd49rteu1qhw4o6ja)**}.  u703, u307 capped
+
+TPC HV: (**GEMs – 3.3 kV**, CM – 43.3 kV), **ZS - 20 ADU thresh, pre/post trig.=2/2**, **ZDC = 651Hz**, Runs {**[51389](https://chat.sdcc.bnl.gov/sphenix/pl/rhdunfkx83gpfc6rdyr1jsn57r)**}.  u703, u307, u709, u305, u704 capped (u704 capped mid-run)
+
+TPC HV: (**GEMs – 3.3 kV**, CM – 43.3 kV), **ZS - 20 ADU thresh, pre/post trig.=1/1**, **ZDC = 650Hz**, Runs {**[51390](https://chat.sdcc.bnl.gov/sphenix/pl/4py5p7x9hbgrmjs8i3xdhgtd9w)**}.  u703, u307, u709, u305, u704 capped
+
+TPC HV: (**GEMs – 3.35 kV**, CM – 43.3 kV), **ZS - 20 ADU thresh, pre/post trig.=1/1**, **ZDC = 573Hz**, Runs {**[51391](https://chat.sdcc.bnl.gov/sphenix/pl/xq8o3kp31idipr5ybo4e3ixdjh)**}.  u703, u704, u305 capped
+
+TPC HV: (**GEMs – 3.35 kV**, CM – 43.3 kV), **ZS - 20 ADU thresh, pre/post trig.=0/0**, **ZDC = 599Hz**, Runs {**[51392](https://chat.sdcc.bnl.gov/sphenix/pl/1knjgajqstdiujmqcqw9cxfaje)**}.  u703, u704, u305 capped
+
+TPC HV: (**GEMs – 3.3 kV**, CM – 43.3 kV), **ZS - 20 ADU thresh, pre/post trig.=0/0**, **ZDC = 542Hz**, Runs {**[51393](https://chat.sdcc.bnl.gov/sphenix/pl/d8i3rknxpid5ufwajr4t4j4npe)**}.  u703, u704, u305 capped
+
+TPC HV: (**GEMs – 3.3 kV**, CM – 43.3 kV), **ZS - FEExFEE 10xRMS thresh, 425 samples, pre/post trig.=1/1**, **ZDC = 3.99kHz**, Runs {**[51394](https://chat.sdcc.bnl.gov/sphenix/pl/uj6p7aocef8yzm96yemubbf7wh)**}.  **PHYSICS TRIGGER MIX**. u703, u704, u305 capped
+
+TPC HV: (**GEMs – 3.3 kV**, CM – 43.3 kV), **ZS - FEExFEE 10xRMS thresh, 425 samples, pre/post trig.=1/1**, **ZDC = 3.87kHz**, Runs {**[51395](https://chat.sdcc.bnl.gov/sphenix/pl/c73mry7ztbghumcrok9oqm5qco)**}.  **PHYSICS TRIGGER MIX. Diffuse Laser added in mid-run, 3 MIP at 4 kHz**. u703, u704, u305 caps removed mid-run
+
+TPC HV: (**GEMs – 3.3 kV**, CM – 43.3 kV), **ZS - FEExFEE 10xRMS thresh, 425 samples, pre/post trig.=1/1**, **ZDC = 3.79kHz**, Runs {**[51396](https://chat.sdcc.bnl.gov/sphenix/pl/onqzupnud7dwbd1ekiozmrpjrw)**}.  **PHYSICS TRIGGER MIX. Diffuse Laser IN: 3 MIP at 4 kHz**. NO CAPS
+_____________________________________________________________________________
+
+Notes
+
+ - Runs 51394, 51395 @jinhuang was tuning trigger rate. This was also tail end of a ZDC rate increase as C-AD was steering back into collisions
+
+- Please pay attention to the HV settings, ZS settings between runs as both are changing throughout
+
+- Also pay attention to capped modules. The caps were changing between some runs based on HV behavior. The TPC experts are still working this out.
+
+- FEExFEE 10xRMS ZS threshold means that the ZS threshold is different for every FEE (10X RMS noise in all FEE channels). Details for how it's done [are here](https://chat.sdcc.bnl.gov/sphenix/pl/p37pmw98zbriunppmzzdx4bopa)
+
+- **pre/post samples does NOT refer to the 120 pre-sample that determine T0**. It means the number of samples BEFORE (pre) the sample which fired above ZS threshold and number of samples AFTER (post) the sample which fired above ZS threshold
+
+- Typical physics trigger mix is [something like this](https://chat.sdcc.bnl.gov/sphenix/pl/adhu5unhbfddunm6pnfieor3oh)
+
+- I tried my best to keep track of ZDC rate at start of each run. It fluctuates a bit. IF there's questions on this, we can look up the history
 
 
 
