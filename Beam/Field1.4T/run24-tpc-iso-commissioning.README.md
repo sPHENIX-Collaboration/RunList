@@ -359,6 +359,16 @@ Notes
 - List of caps: {u305, u208, u608, u307, u302, u311, u704 }
 
 
+### Step 4.3: TPC overnight physics runs Aug 13-15
+
+* Run Types: Physics (111x111) 
+* B Field: 1.4 T 
+* TPC Num Samples 425
+* TPC Pre-Sample 120 
+* Variable zero suppression threshold of 10x noise RMS, about 20ADU
+* Triggers: Physics triggers sampling all rare photon and jets
+* TPC Gas Ar:cf4:Iso (75:20:5)  
+* Other detectors included: ALL unless otherwise specified
 
 
 
