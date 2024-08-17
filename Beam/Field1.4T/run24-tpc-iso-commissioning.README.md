@@ -439,4 +439,13 @@ Notes
 - I tried my best to keep track of ZDC rate at start of each run. It fluctuates a bit. IF there's questions on this, we can look up the history
 
 
+## Step 5.1: Zero suppression tuning follow up, Aug-16
+
+* Clock triggered data: https://chat.sdcc.bnl.gov/sphenix/pl/dqgaxd8gptbt8jqawjqg11ktna 
+* Production run with 50us extended window: https://chat.sdcc.bnl.gov/sphenix/pl/q44jjzgyc7y43e1iuw8yc6uqie 
+* nonZS 50Hz run for GEM gain measurement at begin and end of fill
+  - End of fill [BP run 51455, 51456, 3.30kV, nonZS]: https://chat.sdcc.bnl.gov/sphenix/pl/8kr6xyqxebfemja3quuwphp9ue 
+  - Begin of fill [BP run 51485 @ 3.30kV, 51486 @3.35kV]: https://chat.sdcc.bnl.gov/sphenix/pl/4aq71qtse7bjxbihgzhnss5peh 
+* BP test run with RCDAQ compression on TPC with 50us extended readout window. Compression ratio with ZS is about 75%. Working with Martin on stability
+
 
