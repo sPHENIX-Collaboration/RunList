@@ -449,3 +449,13 @@ Notes
 * BP test run with RCDAQ compression on TPC with 50us extended readout window. Compression ratio with ZS is about 75%. Working with Martin on stability
 
 
+# Good physics run ranges 
+
+* Before Aug 20: 
+  - Data pipeline setup, not advised for analysis
+* Aug 20-Aug 28: Run 51730-52206
+* Aug 28-Sept 1: 
+  - Significant data loss, not advised for analysis
+* Sept 1-End of run: Run 52469-End of run 24
+  - Note diffuse laser intensity reduction [after run 53387](https://chat.sdcc.bnl.gov/sphenix/pl/qzxhnzo1k7r5udrt6crj85wdsw)
+
