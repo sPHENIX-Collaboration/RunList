@@ -49,3 +49,11 @@ Notes
 
 ## TPC BP runs Oct 09-10  
 
+
+## HV/Gain scan
+
+https://chat.sdcc.bnl.gov/sphenix/pl/n3nqwnto1jy9ibi3teayoe5xfo
+
+54587 ~15 kHz, 3350 Volts, +1 mrad, 30 minutes
+54588 ~14 kHz, 3400 Volts, +1 mrad, 30 minutes
+54589 ~13 kHz, 3450 Volts, +1 mrad, 30 minutes
