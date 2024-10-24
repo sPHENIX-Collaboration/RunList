@@ -456,6 +456,6 @@ Notes
 * Aug 20-Aug 28: Run 51730-52206
 * Aug 28-Sept 1: 
   - Significant data loss, not advised for analysis
-* Sept 1-End of run: Run 52469-End of run 24
+* Sept 1-End of run: Run 52469-53880 (End of run 24)
   - Note diffuse laser intensity reduction [after run 53387](https://chat.sdcc.bnl.gov/sphenix/pl/qzxhnzo1k7r5udrt6crj85wdsw)
 
