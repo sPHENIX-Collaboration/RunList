@@ -457,5 +457,6 @@ Notes
 * Aug 28-Sept 1: 
   - Significant data loss, not advised for analysis
 * Sept 1-End of run: Run 52469-53880 (End of run 24)
+  - Note DMA driver fix which fix random data loss at downstream conjestion [fix applied after run 52886](https://chat.sdcc.bnl.gov/sphenix/pl/m1hu4wqpebgwfyie8ppagy6zsa)
   - Note diffuse laser intensity reduction [after run 53387](https://chat.sdcc.bnl.gov/sphenix/pl/qzxhnzo1k7r5udrt6crj85wdsw)
 
