@@ -21,7 +21,7 @@ You will not need to run the generator yourself unless you want to create a cust
 | `run2auau` | `ana509_2024p022_v001` | `DST_CALOFITTING` | 10 | 759,481,790 | 110 | `run2auau_ana509_2024p022_v001_dst_calofitting_grl.list` |
 | `run3pp` | `new_newcdbtag_v008` | `DST_CALOFITTING` | 12 | 6,527,498,042 | 788 | `run3pp_new_newcdbtag_v008_dst_calofitting_grl.list` |
 | `run3auau` | `new_newcdbtag_v008` | `DST_CALOFITTING` | 12 | 10,979,359,411 | 1,086 | `run3auau_new_newcdbtag_v008_dst_calofitting_grl.list` | 
-| `run3oo` | `ana536_2025p010_v001` | `DST_CALOFITTING` | 12 | 2,574,888,458 | 119 | `run3oo_new_newcdbtag_v008_dst_calofitting_grl.list` |
+| `run3oo` | `pro001_pcdb001_v001` | `DST_CALOFITTING` | 12 | 3,155,202,320 | 133 | `run3oo_new_newcdbtag_v008_dst_calofitting_grl.list` |
 
 
 
