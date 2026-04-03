@@ -123,12 +123,32 @@ class RunnumberRange:
                 raise KeyError(f"Missing constant {name} in {self.path}")
             return constants[name]
 
+
+#   constexpr int RUN2PP_FIRST = 47286;
+#   constexpr int RUN2PP_LAST = 53880;
+#   constexpr int RUN2AUAU_FIRST = 54128;
+#   constexpr int RUN2AUAU_LAST = 54974;
+#   constexpr int RUN3_TPCFW_CLOCK_CHANGE = 58667;
+#   constexpr int RUN3AUAU_FIRST = 66457;
+#   constexpr int RUN3AUAU_LAST = 78954;
+#   constexpr int RUN3PP_FIRST = 79146; // first beam data
+#   constexpr int RUN3PP_LAST = 81668;
+#   constexpr int RUN3OO_FIRST = 82388; // after trigger settled down (run 82374 excluded);
+#   constexpr int RUN3OO_LAST = 82703;
+        # datasets = {
+        #     "run2pp": (require("RUN2PP_FIRST"), require("RUN2PP_LAST")),
+        #     "run2auau": (require("RUN2AUAU_FIRST"), require("RUN2AUAU_LAST")),
+        #     "run3auau": (require("RUN3AUAU_FIRST"), require("RUN3AUAU_LAST")),
+        #     "run3pp": (require("RUN3PP_FIRST"), require("RUN3PP_LAST")),
+        #     "run3oo": (require("RUN3PP_LAST")+1, 100_000),
+        # }
+        ## hard code the runranges
         datasets = {
-            "run2pp": (require("RUN2PP_FIRST"), require("RUN2PP_LAST")),
-            "run2auau": (require("RUN2AUAU_FIRST"), require("RUN2AUAU_LAST")),
-            "run3auau": (require("RUN3AUAU_FIRST"), require("RUN3AUAU_LAST")),
-            "run3pp": (require("RUN3PP_FIRST"), require("RUN3PP_LAST")),
-            "run3oo": (require("RUN3PP_LAST")+1, 100_000),
+            "run2pp": (47286, 53880),
+            "run2auau": (54128, 54974),
+            "run3auau": (66457, 78954),
+            "run3pp": (79146, 81668),
+            "run3oo": (82388, 82703),
         }
         return RunRanges(constants=constants, datasets=datasets)
 
