@@ -21,8 +21,8 @@ MB_TRIG_BIT=12
   --livetime_threshold ${MB_TRIG_BIT}:0.7 \
   --min_reco_events 1_000_000 \
   --offline_status \
-    "emcal == GOLDEN" \
-    "ohcal == GOLDEN" \
-    "ihcal == GOLDEN" \
+    "emcal_auto == GOLDEN" \
+    "ohcal_auto == GOLDEN" \
+    "ihcal_auto == GOLDEN" \
   --l0_report summary \
   --prefix "$output_dir"
