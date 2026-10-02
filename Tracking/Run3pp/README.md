@@ -28,12 +28,6 @@ The detailed run-by-run classification, including detector quality and overall r
 | **Golden** | 327 | 172,055,315,122 | 165,745,989,146 | 3,375,148,673 |
 | **Acceptable** | 275 | 129,635,961,353 | 124,261,987,430 | 2,315,642,302 |
 
-## Run Lists
-
-The run lists are available as text files for download:
-
-- [Golden Run List](Golden_run3pp_tracking.list)
-- [Acceptable Run List](Acceptable_run3pp_tracking.list)
 
 ## Quality Classification
 
