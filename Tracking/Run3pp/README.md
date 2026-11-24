@@ -45,3 +45,23 @@ The detailed run-by-run classification, including detector quality and overall r
 | **Golden** | All MVTX, INTT, and TPC classifications are **Good** for both criteria. |
 | **Acceptable** | No detector classification is **Bad**, and at least one classification is **Acceptable**. |
 | **Excluded** | Run is **Unknown** or otherwise does not satisfy the Golden or Acceptable criteria. |
+
+## Tracking + Calorimeter Overlap Run Lists
+
+The **Golden Overlap** and **Acceptable Overlap** run lists require a run to pass both the tracking quality criteria above and the calorimeter quality criterion.
+
+The calorimeter quality is taken from the external calorimeter Golden Run List
+(`run3pp_new_newcdbtag_v008_dst_calofitting_grl.list`).  A run is classified as
+**Calo Golden** if it appears in that list, and **Calo Bad** otherwise.
+
+The combined quality is assigned as follows:
+
+| Overall Quality | Tracking Quality | Calorimeter Quality |
+|:---|:---|:---|
+| **Golden** | Golden | Golden |
+| **Acceptable** | Acceptable | Golden |
+| **Bad** | Golden or Acceptable | Bad |
+
+- A run is included in the **Golden Overlap List** when it is Tracking Golden and Calo Golden.
+- A run is included in the **Acceptable Overlap List** when it is Tracking Acceptable and Calo Golden.
+- Runs that do not pass the calorimeter criterion are excluded regardless of their tracking quality.
